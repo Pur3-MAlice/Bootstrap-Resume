@@ -36,6 +36,10 @@ h1,h2,h3,h4 {
     color: #fafafa;
 }
 
+.list-block {
+    display: inline-block;
+}
+
 /* -------------------------Headings*/
 header {
     margin: 0;
