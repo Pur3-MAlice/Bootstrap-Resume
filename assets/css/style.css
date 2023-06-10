@@ -15,15 +15,15 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #354446ff;
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6;
+    background-color: #2E273Dff;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498bd;
+    background-color: #5E929Eff;
 }
 
 .ui-menu-color-download {
@@ -201,7 +201,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #e67e22;
+    color: #354446ff;
 }
 
 .social-links {
@@ -225,7 +225,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e67e22;
+    background: #354446ff;
 }
 
 #footer-details {
@@ -235,7 +235,7 @@ footer {
 /* -------------------------Three Reasons*/
 .three-reasons-icon {
     font-size: 32px;
-    color: #3498bd;
+    color: #5E929Eff;
 }
 
 .three-reasons-heading {
