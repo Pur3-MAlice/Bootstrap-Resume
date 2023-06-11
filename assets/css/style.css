@@ -14,6 +14,10 @@
     background-color: white;
 }
 
+.bg-color-work-history {
+    background-color: #2E273Dff;
+}
+
 .ui-menu-color-home {
     background-color: #354446ff;
 }
@@ -44,11 +48,13 @@
     float: none;
 }
 
+.history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+    color: #fafafa;
 }
 /* -------------------------Special paddings/margins/text*/
 h1,h2,h3,h4 {
