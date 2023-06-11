@@ -54,7 +54,6 @@
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
-    color: #fafafa;
 }
 /* -------------------------Special paddings/margins/text*/
 h1,h2,h3,h4 {
@@ -302,4 +301,10 @@ footer {
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/* ------------------------- Work History */
+.history-heading{
+    margin-bottom: 50px;
+    color: #fafafa;
 }
