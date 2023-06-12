@@ -368,3 +368,9 @@ footer {
     margin: 0 auto; 
     max-width: 70%;
 }
+
+.btn-secondary {
+    background: #5E929Eff;
+    border: #5E929Eff;
+    margin: 2em;
+}
