@@ -385,7 +385,10 @@ footer {
     border: #5E929Eff;
     margin: 2em;
 }
-
+/* ------------------------- Map */
+div#map {
+    min-height: 360px;
+}
 
 /* ------------------------- Media Q's */
 
@@ -397,3 +400,4 @@ footer {
         max-width: 50%;
     }
 }
+
