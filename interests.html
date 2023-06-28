@@ -186,20 +186,7 @@
         </div>
 
     </footer>
-    <script>
-        function initMap() {
-            const myLatLng = { lat: 53.483959, lng: -2.244644 };
-            const map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 9,
-                center: myLatLng,
-            });
-            new google.maps.Marker({
-                position: myLatLng, map,
-                title: "Hello World!",
-            });
-        }
-        window.initMap = initMap;
-    </script>    
+  
     <script src="assets/js/maps.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPi3GEXjrcy6z66A0dm7R_5v3qViyNiZc&callback=initMap&v=weekly" defer></script>
 </body>
