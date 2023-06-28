@@ -9,4 +9,4 @@ function initMap() {
         title: "Manchester",
     });
 }
-window.initMap = initMap; 
+window.initMap = initMap;
