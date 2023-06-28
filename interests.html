@@ -188,19 +188,19 @@
     </footer>
     <script>
         function initMap() {
-            let map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 3, 
-                center: {
-                    lat: 46.619261,
-                    lng: -33.134766
-                }
+            const myLatLng = { lat: 53.483959, lng: -2.244644 };
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 9,
+                center: myLatLng,
             });
-            let labels = []
+            new google.maps.Marker({
+                position: myLatLng, map,
+                title: "Hello World!",
+            });
         }
-    </script>
+        window.initMap = initMap;
+    </script>    
     <script src="assets/js/maps.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPi3GEXjrcy6z66A0dm7R_5v3qViyNiZc&callback=initMap&v=weekly" defer></script>
-
 </body>
-
 </html>
