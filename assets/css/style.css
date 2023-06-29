@@ -391,6 +391,15 @@ div#map {
 }
 
 /* ------------------------- Github Page */
+
+.btn-success {
+        color: #fff;
+        background-color: #28a745;
+        border-color: #28a745;
+        height: 48px;
+        margin-left: 10px;
+}
+
 br {
     display: block;
     line-height: 1.6em;

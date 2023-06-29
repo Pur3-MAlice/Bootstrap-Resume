@@ -59,8 +59,10 @@
                 <h5 class="uppercase text-center">You can also search on other user profiles</h5>
 
                 <div class="center-form">
-                    <input type="text" id="gh-username" value="Pur3-MAlice" oninput="fetchGitHubInformation()"/>
-                    <button type="button" class="btn btn-success" id="gh-username-search">Search</button>
+                    <div class="row">
+                        <input type="text" id="gh-username" class="col-md-4 col-sm-12" value="Pur3-MAlice"/>
+                        <button type="button" class="btn btn-success col-md-1 col-sm-12" id="gh-username-search" onclick="searchUsersButton()">Search</button>
+                    </div>
                     <div id="gh-user-data"></div>
                     <div id="gh-repo-data"></div>
                 </div>
