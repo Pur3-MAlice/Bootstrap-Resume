@@ -36,14 +36,23 @@ function repoInformationHTML(repos) {
             </div>`;
 }
 
+
 function searchUsersButton() {
     fetchGitHubInformation()
     $("#gh-username").keyup(function (event) {
         if (event.keyCode === 13) {
-            fetchGitHubInformation()
+            $("#gh-username-search").click();
         }
     });
 }
+
+function searchUsersButtonEnter() {
+    $("#gh-username").keyup(function (event) {
+        if (event.keyCode === 13) {
+            $("#gh-username-search").click();
+        }
+    });
+}   
 
 function fetchGitHubInformation(event) {
     $("#gh-user-data").html("");
@@ -85,3 +94,5 @@ function fetchGitHubInformation(event) {
             }
         });
 }
+
+$(document).ready(fetchGitHubInformation);
