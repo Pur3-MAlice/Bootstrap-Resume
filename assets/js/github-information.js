@@ -36,13 +36,10 @@ function repoInformationHTML(repos) {
             </div>`;
 }
 
-function searchUsersButton() {
-    $("gh-username-search").click(function(){
-        fetchGitHubInformation();
-      });
-}
 
-
+$("#gh-username-search").on("click", () => {
+    fetchGitHubInformation()
+});
 
 function fetchGitHubInformation(event) {
     $("#gh-user-data").html("");
@@ -50,7 +47,6 @@ function fetchGitHubInformation(event) {
 
     var username = $("#gh-username").val();
     
-
     if (!username) {
         $("#gh-user-data").html(`<h5>Please enter a GitHub username</h5>`);
         return;
