@@ -36,11 +36,21 @@ function repoInformationHTML(repos) {
             </div>`;
 }
 
+function searchUsersButton() {
+    $("gh-username-search").click(function(){
+        fetchGitHubInformation();
+      });
+}
+
+
+
 function fetchGitHubInformation(event) {
     $("#gh-user-data").html("");
     $("#gh-repo-data").html("");
 
     var username = $("#gh-username").val();
+    
+
     if (!username) {
         $("#gh-user-data").html(`<h5>Please enter a GitHub username</h5>`);
         return;
@@ -76,4 +86,4 @@ function fetchGitHubInformation(event) {
         });
 }
 
-$(document).ready(fetchGitHubInformation);
+// $(document).ready(searchUsersButton);
