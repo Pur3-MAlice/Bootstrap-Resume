@@ -36,7 +36,6 @@ function repoInformationHTML(repos) {
             </div>`;
 }
 
-
 function searchUsersButton() {
     fetchGitHubInformation()
     $("#gh-username").keyup(function (event) {
